@@ -8,5 +8,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "homepage": "https://github.com/TastySpaceApple/request-meta",
+  "dependencies": {},
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/TastySpaceApple/request-meta.git"
+  }
 }
