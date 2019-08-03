@@ -1,8 +1,14 @@
 # request-meta
 
-Gets html meta data from a URL. No dependencies, of course.
+> Gets html meta data from a URL. No dependencies, of course.
+[![@latest](https://img.shields.io/npm/v/request-meta)](https://www.npmjs.com/package/request-meta)
 
-Example:
+## Installation
+```shell
+npm install @octokit/rest
+```
+
+## Usage
 
 ```js
 (async function(){
