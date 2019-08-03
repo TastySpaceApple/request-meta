@@ -36,8 +36,9 @@ function parseMeta(html){
     }
     attributes[key] = value;
 
-    if(attributes.name || attributes.property)
-      meta[attributes.name || attributes.property] = attributes.content || '';
+    if(attributes.name) meta[attributes.name] = attributes.content || '';
+    if(attributes.itemprop) meta[attributes.itemprop] = attributes.content || '';
+    if(attributes.property) meta[attributes.property] = attributes.content || '';
 
   }
 
