@@ -67,9 +67,7 @@ function request(url){
   });
 }
 
-module.exports = {
-  getMeta: async function(url){
-    let html = await request(url)
-    return parseMeta(html);
-  }
-};
+module.exports = async function(url){
+  let html = await request(url)
+  return parseMeta(html);
+}

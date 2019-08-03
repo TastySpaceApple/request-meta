@@ -12,9 +12,8 @@ npm install @octokit/rest
 
 ```js
 (async function(){
-
-  let meta = await require('request-meta')
-          .getMeta('https://youtube-creators.googleblog.com/2013/08/so-long-video-responsesnext-up-better.html')
+  const request_meta = require('request-meta')
+  let meta = await request_meta ('https://youtube-creators.googleblog.com/2013/08/so-long-video-responsesnext-up-better.html')
 
   console.log(meta)
 })()
