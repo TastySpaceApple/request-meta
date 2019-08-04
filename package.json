@@ -1,6 +1,6 @@
 {
   "name": "request-meta",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gets html meta data from URL",
   "main": "index.js",
   "scripts": {

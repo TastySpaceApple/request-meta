@@ -5,7 +5,7 @@
 
 ## Installation
 ```shell
-npm install @octokit/rest
+npm install request-meta
 ```
 
 ## Usage
